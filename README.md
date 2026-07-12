@@ -7,4 +7,4 @@ evilware encrypt <FILENAME>      # encrypts the file named <FILENAME> and create
 evilware decrypt <FILENAME>      # decrypts the previously encrypted file using the locally stored key.key file.
 ```
 ### contribution
-dont
+**dont**
