@@ -23,9 +23,7 @@ token = None
 
 
 def get_files(path):
-    if os.getcwd() != path:
-        os.chdir(path)
-    return subprocess.run(['fd', '.'], capture_output=True, text=True).stdout.splitlines()
+    return subprocess.run(['fd', path], capture_output=True, text=True).stdout.splitlines()
 
 @click.group()
 def evil():
