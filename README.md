@@ -1,4 +1,4 @@
-# Evilware - A ransomware simulator.
+# Evilware - A ransomware simulator
 Written in python and encrypts/decrypts local files. Encrypt your important files, give yourself a ransom, then decrypt the files.
 
 ### usage
